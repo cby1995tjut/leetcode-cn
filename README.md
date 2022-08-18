@@ -1,2 +1,1 @@
-# leetcode-cn
-just for leet code
+#Leet code CN
