@@ -6,6 +6,8 @@ package middle;
 //
 //你可以假设除了数字 0 之外，这两个数都不会以 0 开头。
 
+import common.ListNode;
+
 public class SumTwoNumbers {
 
     public static void main(String[] args) {
@@ -54,15 +56,4 @@ public class SumTwoNumbers {
             result = result.next;
         }
     }
-}
-
-
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next;
-   }
 }
